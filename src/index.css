@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --editorial-bg: #FAF9F6;
+    --editorial-ink: #1a1a1a;
+    --editorial-gold: #C5A059;
+    --editorial-sand: #E8E6E1;
+    --editorial-parchment: #F4F2EC;
+  }
+
+  body {
+    background-color: #FAF9F6;
+    color: #1a1a1a;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: 'Playfair Display', Georgia, Cambria, serif;
+  }
+}
+
